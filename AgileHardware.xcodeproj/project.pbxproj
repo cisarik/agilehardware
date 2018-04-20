@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A061A8D1B31A50800F5CAB7 /* SceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A061A8C1B31A50800F5CAB7 /* SceneViewController.m */; };
+		6A061A8F1B31A56B00F5CAB7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A061A8E1B31A56A00F5CAB7 /* OpenGLES.framework */; };
+		6A061A911B31A57300F5CAB7 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A061A901B31A57300F5CAB7 /* SceneKit.framework */; };
+		6A090DEC1B3E97FC00187E7E /* ui.js in Resources */ = {isa = PBXBuildFile; fileRef = 6A090DEB1B3E97FC00187E7E /* ui.js */; };
+		6A65A7D41B2AFC1100AC01A2 /* katex.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7D21B2AFC1100AC01A2 /* katex.min.css */; };
+		6A65A7D51B2AFC1100AC01A2 /* katex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7D31B2AFC1100AC01A2 /* katex.min.js */; };
+		6A65A8051B2B079D00AC01A2 /* KaTeX_AMS-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7D91B2B079D00AC01A2 /* KaTeX_AMS-Regular.eot */; };
+		6A65A8061B2B079D00AC01A2 /* KaTeX_AMS-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7DA1B2B079D00AC01A2 /* KaTeX_AMS-Regular.ttf */; };
+		6A65A8071B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7DB1B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff */; };
+		6A65A8081B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7DC1B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff2 */; };
+		6A65A8091B2B079D00AC01A2 /* KaTeX_Main-Bold.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7DD1B2B079D00AC01A2 /* KaTeX_Main-Bold.eot */; };
+		6A65A80A1B2B079D00AC01A2 /* KaTeX_Main-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7DE1B2B079D00AC01A2 /* KaTeX_Main-Bold.ttf */; };
+		6A65A80B1B2B079D00AC01A2 /* KaTeX_Main-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7DF1B2B079D00AC01A2 /* KaTeX_Main-Bold.woff */; };
+		6A65A80C1B2B079D00AC01A2 /* KaTeX_Main-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E01B2B079D00AC01A2 /* KaTeX_Main-Bold.woff2 */; };
+		6A65A80D1B2B079D00AC01A2 /* KaTeX_Main-Italic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E11B2B079D00AC01A2 /* KaTeX_Main-Italic.eot */; };
+		6A65A80E1B2B079D00AC01A2 /* KaTeX_Main-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E21B2B079D00AC01A2 /* KaTeX_Main-Italic.ttf */; };
+		6A65A80F1B2B079D00AC01A2 /* KaTeX_Main-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E31B2B079D00AC01A2 /* KaTeX_Main-Italic.woff */; };
+		6A65A8101B2B079D00AC01A2 /* KaTeX_Main-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E41B2B079D00AC01A2 /* KaTeX_Main-Italic.woff2 */; };
+		6A65A8111B2B079D00AC01A2 /* KaTeX_Main-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E51B2B079D00AC01A2 /* KaTeX_Main-Regular.eot */; };
+		6A65A8121B2B079D00AC01A2 /* KaTeX_Main-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E61B2B079D00AC01A2 /* KaTeX_Main-Regular.ttf */; };
+		6A65A8131B2B079D00AC01A2 /* KaTeX_Main-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E71B2B079D00AC01A2 /* KaTeX_Main-Regular.woff */; };
+		6A65A8141B2B079D00AC01A2 /* KaTeX_Main-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E81B2B079D00AC01A2 /* KaTeX_Main-Regular.woff2 */; };
+		6A65A8151B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7E91B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.eot */; };
+		6A65A8161B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7EA1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.ttf */; };
+		6A65A8171B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7EB1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff */; };
+		6A65A8181B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7EC1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff2 */; };
+		6A65A8191B2B079D00AC01A2 /* KaTeX_Math-Italic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7ED1B2B079D00AC01A2 /* KaTeX_Math-Italic.eot */; };
+		6A65A81A1B2B079D00AC01A2 /* KaTeX_Math-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7EE1B2B079D00AC01A2 /* KaTeX_Math-Italic.ttf */; };
+		6A65A81B1B2B079D00AC01A2 /* KaTeX_Math-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7EF1B2B079D00AC01A2 /* KaTeX_Math-Italic.woff */; };
+		6A65A81C1B2B079D00AC01A2 /* KaTeX_Math-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F01B2B079D00AC01A2 /* KaTeX_Math-Italic.woff2 */; };
+		6A65A81D1B2B079D00AC01A2 /* KaTeX_Math-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F11B2B079D00AC01A2 /* KaTeX_Math-Regular.eot */; };
+		6A65A81E1B2B079D00AC01A2 /* KaTeX_Math-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F21B2B079D00AC01A2 /* KaTeX_Math-Regular.ttf */; };
+		6A65A81F1B2B079D00AC01A2 /* KaTeX_Math-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F31B2B079D00AC01A2 /* KaTeX_Math-Regular.woff */; };
+		6A65A8201B2B079D00AC01A2 /* KaTeX_Math-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F41B2B079D00AC01A2 /* KaTeX_Math-Regular.woff2 */; };
+		6A65A8211B2B079D00AC01A2 /* KaTeX_Size1-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F51B2B079D00AC01A2 /* KaTeX_Size1-Regular.eot */; };
+		6A65A8221B2B079D00AC01A2 /* KaTeX_Size1-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F61B2B079D00AC01A2 /* KaTeX_Size1-Regular.ttf */; };
+		6A65A8231B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F71B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff */; };
+		6A65A8241B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F81B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff2 */; };
+		6A65A8251B2B079D00AC01A2 /* KaTeX_Size2-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7F91B2B079D00AC01A2 /* KaTeX_Size2-Regular.eot */; };
+		6A65A8261B2B079D00AC01A2 /* KaTeX_Size2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7FA1B2B079D00AC01A2 /* KaTeX_Size2-Regular.ttf */; };
+		6A65A8271B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7FB1B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff */; };
+		6A65A8281B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7FC1B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff2 */; };
+		6A65A8291B2B079D00AC01A2 /* KaTeX_Size3-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7FD1B2B079D00AC01A2 /* KaTeX_Size3-Regular.eot */; };
+		6A65A82A1B2B079D00AC01A2 /* KaTeX_Size3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7FE1B2B079D00AC01A2 /* KaTeX_Size3-Regular.ttf */; };
+		6A65A82B1B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A7FF1B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff */; };
+		6A65A82C1B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A8001B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff2 */; };
+		6A65A82D1B2B079D00AC01A2 /* KaTeX_Size4-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A8011B2B079D00AC01A2 /* KaTeX_Size4-Regular.eot */; };
+		6A65A82E1B2B079D00AC01A2 /* KaTeX_Size4-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A8021B2B079D00AC01A2 /* KaTeX_Size4-Regular.ttf */; };
+		6A65A82F1B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A8031B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff */; };
+		6A65A8301B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A8041B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff2 */; };
+		6A65A8321B2B07B300AC01A2 /* auto-render.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 6A65A8311B2B07B300AC01A2 /* auto-render.min.js */; };
+		6AAC3D291B2F0A9A002092A8 /* GFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D261B2F0A9A002092A8 /* GFS.m */; };
+		6AAC3D2A1B2F0A9B002092A8 /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D281B2F0A9A002092A8 /* Loader.m */; };
+		6AAC3D2D1B2F0B02002092A8 /* MersenneTwister.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D2C1B2F0B02002092A8 /* MersenneTwister.m */; };
+		6AAC3D601B2F0FAA002092A8 /* _DDDecimalFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D2F1B2F0FAA002092A8 /* _DDDecimalFunctions.m */; };
+		6AAC3D611B2F0FAA002092A8 /* _DDFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D311B2F0FAA002092A8 /* _DDFunctionEvaluator.m */; };
+		6AAC3D621B2F0FAA002092A8 /* _DDFunctionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D331B2F0FAA002092A8 /* _DDFunctionExpression.m */; };
+		6AAC3D631B2F0FAA002092A8 /* _DDFunctionTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D351B2F0FAA002092A8 /* _DDFunctionTerm.m */; };
+		6AAC3D641B2F0FAA002092A8 /* _DDGroupTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D371B2F0FAA002092A8 /* _DDGroupTerm.m */; };
+		6AAC3D651B2F0FAA002092A8 /* _DDNumberExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D391B2F0FAA002092A8 /* _DDNumberExpression.m */; };
+		6AAC3D661B2F0FAA002092A8 /* _DDNumberTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D3B1B2F0FAA002092A8 /* _DDNumberTerm.m */; };
+		6AAC3D671B2F0FAA002092A8 /* _DDOperatorTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D3D1B2F0FAA002092A8 /* _DDOperatorTerm.m */; };
+		6AAC3D681B2F0FAA002092A8 /* _DDParserTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D3F1B2F0FAA002092A8 /* _DDParserTerm.m */; };
+		6AAC3D691B2F0FAA002092A8 /* _DDPrecisionFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D411B2F0FAA002092A8 /* _DDPrecisionFunctionEvaluator.m */; };
+		6AAC3D6A1B2F0FAA002092A8 /* _DDRewriteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D431B2F0FAA002092A8 /* _DDRewriteRule.m */; };
+		6AAC3D6B1B2F0FAA002092A8 /* _DDVariableExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D451B2F0FAA002092A8 /* _DDVariableExpression.m */; };
+		6AAC3D6C1B2F0FAA002092A8 /* _DDVariableTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D471B2F0FAA002092A8 /* _DDVariableTerm.m */; };
+		6AAC3D6D1B2F0FAA002092A8 /* DDExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D491B2F0FAA002092A8 /* DDExpression.m */; };
+		6AAC3D6E1B2F0FAA002092A8 /* DDExpressionRewriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D4B1B2F0FAA002092A8 /* DDExpressionRewriter.m */; };
+		6AAC3D6F1B2F0FAA002092A8 /* DDMathEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D4D1B2F0FAA002092A8 /* DDMathEvaluator.m */; };
+		6AAC3D701B2F0FAA002092A8 /* DDMathOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D511B2F0FAA002092A8 /* DDMathOperator.m */; };
+		6AAC3D711B2F0FAA002092A8 /* DDMathStringToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D551B2F0FAA002092A8 /* DDMathStringToken.m */; };
+		6AAC3D721B2F0FAA002092A8 /* DDMathStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D571B2F0FAA002092A8 /* DDMathStringTokenizer.m */; };
+		6AAC3D731B2F0FAA002092A8 /* DDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D591B2F0FAA002092A8 /* DDParser.m */; };
+		6AAC3D741B2F0FAA002092A8 /* DDParserTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D5B1B2F0FAA002092A8 /* DDParserTypes.m */; };
+		6AAC3D751B2F0FAA002092A8 /* DDTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D5D1B2F0FAA002092A8 /* DDTypes.m */; };
+		6AAC3D761B2F0FAA002092A8 /* NSString+DDMathParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D5F1B2F0FAA002092A8 /* NSString+DDMathParsing.m */; };
+		6AAC3D7A1B3149FE002092A8 /* ElementScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D791B3149FE002092A8 /* ElementScene.m */; };
+		6AAC3D7D1B3172E0002092A8 /* Optimization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC3D7C1B3172E0002092A8 /* Optimization.m */; };
+		6AAD23351B29FF7D002E5E2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23341B29FF7D002E5E2B /* main.m */; };
+		6AAD23381B29FF7D002E5E2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23371B29FF7D002E5E2B /* AppDelegate.m */; };
+		6AAD233B1B29FF7D002E5E2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD233A1B29FF7D002E5E2B /* ViewController.m */; };
+		6AAD23401B29FF7D002E5E2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD233F1B29FF7D002E5E2B /* Images.xcassets */; };
+		6AAD23431B29FF7D002E5E2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD23411B29FF7D002E5E2B /* LaunchScreen.xib */; };
+		6AAD234F1B29FF7E002E5E2B /* AgileHardwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD234E1B29FF7E002E5E2B /* AgileHardwareTests.m */; };
+		6AAD235A1B2A049F002E5E2B /* AgileNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23591B2A049F002E5E2B /* AgileNavigationBar.m */; };
+		6AAD235F1B2A0650002E5E2B /* AgileDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD235E1B2A0650002E5E2B /* AgileDebugViewController.m */; };
+		6AAD23661B2A079C002E5E2B /* AgileSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23651B2A079C002E5E2B /* AgileSideMenuViewController.m */; };
+		6AAD236A1B2A07FC002E5E2B /* AgileGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23691B2A07FC002E5E2B /* AgileGradient.m */; };
+		6AAD236D1B2A088E002E5E2B /* AgileTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD236C1B2A088E002E5E2B /* AgileTools.m */; };
+		6AAD23701B2A09FE002E5E2B /* AgileSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD236F1B2A09FE002E5E2B /* AgileSideMenuView.m */; };
+		6AAD23731B2A0A71002E5E2B /* AgileButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23721B2A0A71002E5E2B /* AgileButton.m */; };
+		6AAD23761B2A0D96002E5E2B /* AgileDebugMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23751B2A0D96002E5E2B /* AgileDebugMenuView.m */; };
+		6AAD23791B2A171F002E5E2B /* AlphaGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23781B2A171F002E5E2B /* AlphaGradientView.m */; };
+		6AAD23811B2A2836002E5E2B /* BouncyTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD237C1B2A2836002E5E2B /* BouncyTransition.m */; };
+		6AAD23821B2A2836002E5E2B /* DismissGravity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD237E1B2A2836002E5E2B /* DismissGravity.m */; };
+		6AAD23831B2A2836002E5E2B /* TwoStepTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23801B2A2836002E5E2B /* TwoStepTransition.m */; };
+		6AAD23861B2A284A002E5E2B /* FunctionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD23851B2A284A002E5E2B /* FunctionsViewController.m */; };
+		6ABCD3421B43C06C005B8A2E /* AgileBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCD3411B43C06C005B8A2E /* AgileBridge.m */; };
+		6AEC75021B2ADA6D0023B91A /* ADWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC75011B2ADA6D0023B91A /* ADWebView.m */; };
+		993DB19D4410F4CEE1C6890C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AF31D004DC952FCFAA6FCD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AAD23491B29FF7E002E5E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AAD23271B29FF7D002E5E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAD232E1B29FF7D002E5E2B;
+			remoteInfo = AgileHardware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A061A8A1B3175D400F5CAB7 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		6A061A8B1B31A50800F5CAB7 /* SceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneViewController.h; sourceTree = "<group>"; };
+		6A061A8C1B31A50800F5CAB7 /* SceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneViewController.m; sourceTree = "<group>"; };
+		6A061A8E1B31A56A00F5CAB7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6A061A901B31A57300F5CAB7 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		6A090DEB1B3E97FC00187E7E /* ui.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ui.js; sourceTree = "<group>"; };
+		6A65A7D21B2AFC1100AC01A2 /* katex.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = katex.min.css; sourceTree = "<group>"; };
+		6A65A7D31B2AFC1100AC01A2 /* katex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = katex.min.js; sourceTree = "<group>"; };
+		6A65A7D91B2B079D00AC01A2 /* KaTeX_AMS-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_AMS-Regular.eot"; sourceTree = "<group>"; };
+		6A65A7DA1B2B079D00AC01A2 /* KaTeX_AMS-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_AMS-Regular.ttf"; sourceTree = "<group>"; };
+		6A65A7DB1B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_AMS-Regular.woff"; sourceTree = "<group>"; };
+		6A65A7DC1B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_AMS-Regular.woff2"; sourceTree = "<group>"; };
+		6A65A7DD1B2B079D00AC01A2 /* KaTeX_Main-Bold.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Bold.eot"; sourceTree = "<group>"; };
+		6A65A7DE1B2B079D00AC01A2 /* KaTeX_Main-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Bold.ttf"; sourceTree = "<group>"; };
+		6A65A7DF1B2B079D00AC01A2 /* KaTeX_Main-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Bold.woff"; sourceTree = "<group>"; };
+		6A65A7E01B2B079D00AC01A2 /* KaTeX_Main-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Bold.woff2"; sourceTree = "<group>"; };
+		6A65A7E11B2B079D00AC01A2 /* KaTeX_Main-Italic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Italic.eot"; sourceTree = "<group>"; };
+		6A65A7E21B2B079D00AC01A2 /* KaTeX_Main-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Italic.ttf"; sourceTree = "<group>"; };
+		6A65A7E31B2B079D00AC01A2 /* KaTeX_Main-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Italic.woff"; sourceTree = "<group>"; };
+		6A65A7E41B2B079D00AC01A2 /* KaTeX_Main-Italic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Italic.woff2"; sourceTree = "<group>"; };
+		6A65A7E51B2B079D00AC01A2 /* KaTeX_Main-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Regular.eot"; sourceTree = "<group>"; };
+		6A65A7E61B2B079D00AC01A2 /* KaTeX_Main-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Regular.ttf"; sourceTree = "<group>"; };
+		6A65A7E71B2B079D00AC01A2 /* KaTeX_Main-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Regular.woff"; sourceTree = "<group>"; };
+		6A65A7E81B2B079D00AC01A2 /* KaTeX_Main-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Main-Regular.woff2"; sourceTree = "<group>"; };
+		6A65A7E91B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-BoldItalic.eot"; sourceTree = "<group>"; };
+		6A65A7EA1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6A65A7EB1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-BoldItalic.woff"; sourceTree = "<group>"; };
+		6A65A7EC1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-BoldItalic.woff2"; sourceTree = "<group>"; };
+		6A65A7ED1B2B079D00AC01A2 /* KaTeX_Math-Italic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Italic.eot"; sourceTree = "<group>"; };
+		6A65A7EE1B2B079D00AC01A2 /* KaTeX_Math-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Italic.ttf"; sourceTree = "<group>"; };
+		6A65A7EF1B2B079D00AC01A2 /* KaTeX_Math-Italic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Italic.woff"; sourceTree = "<group>"; };
+		6A65A7F01B2B079D00AC01A2 /* KaTeX_Math-Italic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Italic.woff2"; sourceTree = "<group>"; };
+		6A65A7F11B2B079D00AC01A2 /* KaTeX_Math-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Regular.eot"; sourceTree = "<group>"; };
+		6A65A7F21B2B079D00AC01A2 /* KaTeX_Math-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Regular.ttf"; sourceTree = "<group>"; };
+		6A65A7F31B2B079D00AC01A2 /* KaTeX_Math-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Regular.woff"; sourceTree = "<group>"; };
+		6A65A7F41B2B079D00AC01A2 /* KaTeX_Math-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Math-Regular.woff2"; sourceTree = "<group>"; };
+		6A65A7F51B2B079D00AC01A2 /* KaTeX_Size1-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size1-Regular.eot"; sourceTree = "<group>"; };
+		6A65A7F61B2B079D00AC01A2 /* KaTeX_Size1-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size1-Regular.ttf"; sourceTree = "<group>"; };
+		6A65A7F71B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size1-Regular.woff"; sourceTree = "<group>"; };
+		6A65A7F81B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size1-Regular.woff2"; sourceTree = "<group>"; };
+		6A65A7F91B2B079D00AC01A2 /* KaTeX_Size2-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size2-Regular.eot"; sourceTree = "<group>"; };
+		6A65A7FA1B2B079D00AC01A2 /* KaTeX_Size2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size2-Regular.ttf"; sourceTree = "<group>"; };
+		6A65A7FB1B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size2-Regular.woff"; sourceTree = "<group>"; };
+		6A65A7FC1B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size2-Regular.woff2"; sourceTree = "<group>"; };
+		6A65A7FD1B2B079D00AC01A2 /* KaTeX_Size3-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size3-Regular.eot"; sourceTree = "<group>"; };
+		6A65A7FE1B2B079D00AC01A2 /* KaTeX_Size3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size3-Regular.ttf"; sourceTree = "<group>"; };
+		6A65A7FF1B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size3-Regular.woff"; sourceTree = "<group>"; };
+		6A65A8001B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size3-Regular.woff2"; sourceTree = "<group>"; };
+		6A65A8011B2B079D00AC01A2 /* KaTeX_Size4-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size4-Regular.eot"; sourceTree = "<group>"; };
+		6A65A8021B2B079D00AC01A2 /* KaTeX_Size4-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size4-Regular.ttf"; sourceTree = "<group>"; };
+		6A65A8031B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size4-Regular.woff"; sourceTree = "<group>"; };
+		6A65A8041B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaTeX_Size4-Regular.woff2"; sourceTree = "<group>"; };
+		6A65A8311B2B07B300AC01A2 /* auto-render.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "auto-render.min.js"; sourceTree = "<group>"; };
+		6AAC3D251B2F0A9A002092A8 /* GFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GFS.h; path = AnalyticProgramming/GFS.h; sourceTree = SOURCE_ROOT; };
+		6AAC3D261B2F0A9A002092A8 /* GFS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GFS.m; path = AnalyticProgramming/GFS.m; sourceTree = SOURCE_ROOT; };
+		6AAC3D271B2F0A9A002092A8 /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Loader.h; path = AnalyticProgramming/Loader.h; sourceTree = SOURCE_ROOT; };
+		6AAC3D281B2F0A9A002092A8 /* Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Loader.m; path = AnalyticProgramming/Loader.m; sourceTree = SOURCE_ROOT; };
+		6AAC3D2B1B2F0B02002092A8 /* MersenneTwister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MersenneTwister.h; path = Utils/MersenneTwister/MersenneTwister.h; sourceTree = SOURCE_ROOT; };
+		6AAC3D2C1B2F0B02002092A8 /* MersenneTwister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MersenneTwister.m; path = Utils/MersenneTwister/MersenneTwister.m; sourceTree = SOURCE_ROOT; };
+		6AAC3D2E1B2F0FAA002092A8 /* _DDDecimalFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDDecimalFunctions.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDDecimalFunctions.h"; sourceTree = "<group>"; };
+		6AAC3D2F1B2F0FAA002092A8 /* _DDDecimalFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDDecimalFunctions.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDDecimalFunctions.m"; sourceTree = "<group>"; };
+		6AAC3D301B2F0FAA002092A8 /* _DDFunctionEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDFunctionEvaluator.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDFunctionEvaluator.h"; sourceTree = "<group>"; };
+		6AAC3D311B2F0FAA002092A8 /* _DDFunctionEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionEvaluator.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDFunctionEvaluator.m"; sourceTree = "<group>"; };
+		6AAC3D321B2F0FAA002092A8 /* _DDFunctionExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDFunctionExpression.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDFunctionExpression.h"; sourceTree = "<group>"; };
+		6AAC3D331B2F0FAA002092A8 /* _DDFunctionExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionExpression.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDFunctionExpression.m"; sourceTree = "<group>"; };
+		6AAC3D341B2F0FAA002092A8 /* _DDFunctionTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDFunctionTerm.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDFunctionTerm.h"; sourceTree = "<group>"; };
+		6AAC3D351B2F0FAA002092A8 /* _DDFunctionTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionTerm.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDFunctionTerm.m"; sourceTree = "<group>"; };
+		6AAC3D361B2F0FAA002092A8 /* _DDGroupTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDGroupTerm.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDGroupTerm.h"; sourceTree = "<group>"; };
+		6AAC3D371B2F0FAA002092A8 /* _DDGroupTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDGroupTerm.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDGroupTerm.m"; sourceTree = "<group>"; };
+		6AAC3D381B2F0FAA002092A8 /* _DDNumberExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDNumberExpression.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDNumberExpression.h"; sourceTree = "<group>"; };
+		6AAC3D391B2F0FAA002092A8 /* _DDNumberExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDNumberExpression.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDNumberExpression.m"; sourceTree = "<group>"; };
+		6AAC3D3A1B2F0FAA002092A8 /* _DDNumberTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDNumberTerm.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDNumberTerm.h"; sourceTree = "<group>"; };
+		6AAC3D3B1B2F0FAA002092A8 /* _DDNumberTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDNumberTerm.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDNumberTerm.m"; sourceTree = "<group>"; };
+		6AAC3D3C1B2F0FAA002092A8 /* _DDOperatorTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDOperatorTerm.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDOperatorTerm.h"; sourceTree = "<group>"; };
+		6AAC3D3D1B2F0FAA002092A8 /* _DDOperatorTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDOperatorTerm.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDOperatorTerm.m"; sourceTree = "<group>"; };
+		6AAC3D3E1B2F0FAA002092A8 /* _DDParserTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDParserTerm.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDParserTerm.h"; sourceTree = "<group>"; };
+		6AAC3D3F1B2F0FAA002092A8 /* _DDParserTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDParserTerm.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDParserTerm.m"; sourceTree = "<group>"; };
+		6AAC3D401B2F0FAA002092A8 /* _DDPrecisionFunctionEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDPrecisionFunctionEvaluator.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDPrecisionFunctionEvaluator.h"; sourceTree = "<group>"; };
+		6AAC3D411B2F0FAA002092A8 /* _DDPrecisionFunctionEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDPrecisionFunctionEvaluator.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDPrecisionFunctionEvaluator.m"; sourceTree = "<group>"; };
+		6AAC3D421B2F0FAA002092A8 /* _DDRewriteRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDRewriteRule.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDRewriteRule.h"; sourceTree = "<group>"; };
+		6AAC3D431B2F0FAA002092A8 /* _DDRewriteRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDRewriteRule.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDRewriteRule.m"; sourceTree = "<group>"; };
+		6AAC3D441B2F0FAA002092A8 /* _DDVariableExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDVariableExpression.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDVariableExpression.h"; sourceTree = "<group>"; };
+		6AAC3D451B2F0FAA002092A8 /* _DDVariableExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDVariableExpression.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDVariableExpression.m"; sourceTree = "<group>"; };
+		6AAC3D461B2F0FAA002092A8 /* _DDVariableTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDVariableTerm.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDVariableTerm.h"; sourceTree = "<group>"; };
+		6AAC3D471B2F0FAA002092A8 /* _DDVariableTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDVariableTerm.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/_DDVariableTerm.m"; sourceTree = "<group>"; };
+		6AAC3D481B2F0FAA002092A8 /* DDExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDExpression.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDExpression.h"; sourceTree = "<group>"; };
+		6AAC3D491B2F0FAA002092A8 /* DDExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDExpression.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDExpression.m"; sourceTree = "<group>"; };
+		6AAC3D4A1B2F0FAA002092A8 /* DDExpressionRewriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDExpressionRewriter.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDExpressionRewriter.h"; sourceTree = "<group>"; };
+		6AAC3D4B1B2F0FAA002092A8 /* DDExpressionRewriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDExpressionRewriter.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDExpressionRewriter.m"; sourceTree = "<group>"; };
+		6AAC3D4C1B2F0FAA002092A8 /* DDMathEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathEvaluator.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathEvaluator.h"; sourceTree = "<group>"; };
+		6AAC3D4D1B2F0FAA002092A8 /* DDMathEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathEvaluator.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathEvaluator.m"; sourceTree = "<group>"; };
+		6AAC3D4E1B2F0FAA002092A8 /* DDMathEvaluator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DDMathEvaluator+Private.h"; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathEvaluator+Private.h"; sourceTree = "<group>"; };
+		6AAC3D4F1B2F0FAA002092A8 /* DDMathOperator_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathOperator_Internal.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathOperator_Internal.h"; sourceTree = "<group>"; };
+		6AAC3D501B2F0FAA002092A8 /* DDMathOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathOperator.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathOperator.h"; sourceTree = "<group>"; };
+		6AAC3D511B2F0FAA002092A8 /* DDMathOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathOperator.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathOperator.m"; sourceTree = "<group>"; };
+		6AAC3D521B2F0FAA002092A8 /* DDMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathParser.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathParser.h"; sourceTree = "<group>"; };
+		6AAC3D531B2F0FAA002092A8 /* DDMathParserMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathParserMacros.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathParserMacros.h"; sourceTree = "<group>"; };
+		6AAC3D541B2F0FAA002092A8 /* DDMathStringToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathStringToken.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathStringToken.h"; sourceTree = "<group>"; };
+		6AAC3D551B2F0FAA002092A8 /* DDMathStringToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathStringToken.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathStringToken.m"; sourceTree = "<group>"; };
+		6AAC3D561B2F0FAA002092A8 /* DDMathStringTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathStringTokenizer.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathStringTokenizer.h"; sourceTree = "<group>"; };
+		6AAC3D571B2F0FAA002092A8 /* DDMathStringTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathStringTokenizer.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDMathStringTokenizer.m"; sourceTree = "<group>"; };
+		6AAC3D581B2F0FAA002092A8 /* DDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDParser.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDParser.h"; sourceTree = "<group>"; };
+		6AAC3D591B2F0FAA002092A8 /* DDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDParser.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDParser.m"; sourceTree = "<group>"; };
+		6AAC3D5A1B2F0FAA002092A8 /* DDParserTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDParserTypes.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDParserTypes.h"; sourceTree = "<group>"; };
+		6AAC3D5B1B2F0FAA002092A8 /* DDParserTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDParserTypes.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDParserTypes.m"; sourceTree = "<group>"; };
+		6AAC3D5C1B2F0FAA002092A8 /* DDTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTypes.h; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDTypes.h"; sourceTree = "<group>"; };
+		6AAC3D5D1B2F0FAA002092A8 /* DDTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTypes.m; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/DDTypes.m"; sourceTree = "<group>"; };
+		6AAC3D5E1B2F0FAA002092A8 /* NSString+DDMathParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DDMathParsing.h"; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/NSString+DDMathParsing.h"; sourceTree = "<group>"; };
+		6AAC3D5F1B2F0FAA002092A8 /* NSString+DDMathParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDMathParsing.m"; path = "../../SymbolicMath/Archive 2/use-bdd/Utils/DDMath/NSString+DDMathParsing.m"; sourceTree = "<group>"; };
+		6AAC3D781B3149FE002092A8 /* ElementScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementScene.h; sourceTree = "<group>"; };
+		6AAC3D791B3149FE002092A8 /* ElementScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementScene.m; sourceTree = "<group>"; };
+		6AAC3D7B1B3172E0002092A8 /* Optimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Optimization.h; sourceTree = "<group>"; };
+		6AAC3D7C1B3172E0002092A8 /* Optimization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Optimization.m; sourceTree = "<group>"; };
+		6AAD232F1B29FF7D002E5E2B /* AgileHardware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgileHardware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAD23331B29FF7D002E5E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAD23341B29FF7D002E5E2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AAD23361B29FF7D002E5E2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AAD23371B29FF7D002E5E2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AAD23391B29FF7D002E5E2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AAD233A1B29FF7D002E5E2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6AAD233F1B29FF7D002E5E2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AAD23421B29FF7D002E5E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6AAD23481B29FF7E002E5E2B /* AgileHardwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgileHardwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAD234D1B29FF7E002E5E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAD234E1B29FF7E002E5E2B /* AgileHardwareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgileHardwareTests.m; sourceTree = "<group>"; };
+		6AAD23581B2A049F002E5E2B /* AgileNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileNavigationBar.h; sourceTree = "<group>"; };
+		6AAD23591B2A049F002E5E2B /* AgileNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileNavigationBar.m; sourceTree = "<group>"; };
+		6AAD235B1B2A04DA002E5E2B /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		6AAD235C1B2A05BA002E5E2B /* AutolayoutMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutMacros.h; sourceTree = "<group>"; };
+		6AAD235D1B2A0650002E5E2B /* AgileDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileDebugViewController.h; sourceTree = "<group>"; };
+		6AAD235E1B2A0650002E5E2B /* AgileDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileDebugViewController.m; sourceTree = "<group>"; };
+		6AAD23641B2A079C002E5E2B /* AgileSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileSideMenuViewController.h; sourceTree = "<group>"; };
+		6AAD23651B2A079C002E5E2B /* AgileSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileSideMenuViewController.m; sourceTree = "<group>"; };
+		6AAD23681B2A07FC002E5E2B /* AgileGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileGradient.h; sourceTree = "<group>"; };
+		6AAD23691B2A07FC002E5E2B /* AgileGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileGradient.m; sourceTree = "<group>"; };
+		6AAD236B1B2A088E002E5E2B /* AgileTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileTools.h; sourceTree = "<group>"; };
+		6AAD236C1B2A088E002E5E2B /* AgileTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileTools.m; sourceTree = "<group>"; };
+		6AAD236E1B2A09FE002E5E2B /* AgileSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileSideMenuView.h; sourceTree = "<group>"; };
+		6AAD236F1B2A09FE002E5E2B /* AgileSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileSideMenuView.m; sourceTree = "<group>"; };
+		6AAD23711B2A0A71002E5E2B /* AgileButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileButton.h; sourceTree = "<group>"; };
+		6AAD23721B2A0A71002E5E2B /* AgileButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileButton.m; sourceTree = "<group>"; };
+		6AAD23741B2A0D96002E5E2B /* AgileDebugMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileDebugMenuView.h; sourceTree = "<group>"; };
+		6AAD23751B2A0D96002E5E2B /* AgileDebugMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileDebugMenuView.m; sourceTree = "<group>"; };
+		6AAD23771B2A171F002E5E2B /* AlphaGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaGradientView.h; sourceTree = "<group>"; };
+		6AAD23781B2A171F002E5E2B /* AlphaGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaGradientView.m; sourceTree = "<group>"; };
+		6AAD237B1B2A2836002E5E2B /* BouncyTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BouncyTransition.h; sourceTree = "<group>"; };
+		6AAD237C1B2A2836002E5E2B /* BouncyTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BouncyTransition.m; sourceTree = "<group>"; };
+		6AAD237D1B2A2836002E5E2B /* DismissGravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissGravity.h; sourceTree = "<group>"; };
+		6AAD237E1B2A2836002E5E2B /* DismissGravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissGravity.m; sourceTree = "<group>"; };
+		6AAD237F1B2A2836002E5E2B /* TwoStepTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoStepTransition.h; sourceTree = "<group>"; };
+		6AAD23801B2A2836002E5E2B /* TwoStepTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoStepTransition.m; sourceTree = "<group>"; };
+		6AAD23841B2A284A002E5E2B /* FunctionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionsViewController.h; sourceTree = "<group>"; };
+		6AAD23851B2A284A002E5E2B /* FunctionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionsViewController.m; sourceTree = "<group>"; };
+		6ABCD3401B43C06C005B8A2E /* AgileBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgileBridge.h; sourceTree = "<group>"; };
+		6ABCD3411B43C06C005B8A2E /* AgileBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgileBridge.m; sourceTree = "<group>"; };
+		6AEC74FE1B2AD9F40023B91A /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6AEC75001B2ADA6D0023B91A /* ADWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADWebView.h; sourceTree = "<group>"; };
+		6AEC75011B2ADA6D0023B91A /* ADWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADWebView.m; sourceTree = "<group>"; };
+		8DD493FAE149931E07478735 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		94AF31D004DC952FCFAA6FCD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B2E25A3D568F8E5D5A7562 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AAD232C1B29FF7D002E5E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A061A911B31A57300F5CAB7 /* SceneKit.framework in Frameworks */,
+				6A061A8F1B31A56B00F5CAB7 /* OpenGLES.framework in Frameworks */,
+				993DB19D4410F4CEE1C6890C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAD23451B29FF7E002E5E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A65A7D81B2B072000AC01A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6A65A7D91B2B079D00AC01A2 /* KaTeX_AMS-Regular.eot */,
+				6A65A7DA1B2B079D00AC01A2 /* KaTeX_AMS-Regular.ttf */,
+				6A65A7DB1B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff */,
+				6A65A7DC1B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff2 */,
+				6A65A7DD1B2B079D00AC01A2 /* KaTeX_Main-Bold.eot */,
+				6A65A7DE1B2B079D00AC01A2 /* KaTeX_Main-Bold.ttf */,
+				6A65A7DF1B2B079D00AC01A2 /* KaTeX_Main-Bold.woff */,
+				6A65A7E01B2B079D00AC01A2 /* KaTeX_Main-Bold.woff2 */,
+				6A65A7E11B2B079D00AC01A2 /* KaTeX_Main-Italic.eot */,
+				6A65A7E21B2B079D00AC01A2 /* KaTeX_Main-Italic.ttf */,
+				6A65A7E31B2B079D00AC01A2 /* KaTeX_Main-Italic.woff */,
+				6A65A7E41B2B079D00AC01A2 /* KaTeX_Main-Italic.woff2 */,
+				6A65A7E51B2B079D00AC01A2 /* KaTeX_Main-Regular.eot */,
+				6A65A7E61B2B079D00AC01A2 /* KaTeX_Main-Regular.ttf */,
+				6A65A7E71B2B079D00AC01A2 /* KaTeX_Main-Regular.woff */,
+				6A65A7E81B2B079D00AC01A2 /* KaTeX_Main-Regular.woff2 */,
+				6A65A7E91B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.eot */,
+				6A65A7EA1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.ttf */,
+				6A65A7EB1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff */,
+				6A65A7EC1B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff2 */,
+				6A65A7ED1B2B079D00AC01A2 /* KaTeX_Math-Italic.eot */,
+				6A65A7EE1B2B079D00AC01A2 /* KaTeX_Math-Italic.ttf */,
+				6A65A7EF1B2B079D00AC01A2 /* KaTeX_Math-Italic.woff */,
+				6A65A7F01B2B079D00AC01A2 /* KaTeX_Math-Italic.woff2 */,
+				6A65A7F11B2B079D00AC01A2 /* KaTeX_Math-Regular.eot */,
+				6A65A7F21B2B079D00AC01A2 /* KaTeX_Math-Regular.ttf */,
+				6A65A7F31B2B079D00AC01A2 /* KaTeX_Math-Regular.woff */,
+				6A65A7F41B2B079D00AC01A2 /* KaTeX_Math-Regular.woff2 */,
+				6A65A7F51B2B079D00AC01A2 /* KaTeX_Size1-Regular.eot */,
+				6A65A7F61B2B079D00AC01A2 /* KaTeX_Size1-Regular.ttf */,
+				6A65A7F71B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff */,
+				6A65A7F81B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff2 */,
+				6A65A7F91B2B079D00AC01A2 /* KaTeX_Size2-Regular.eot */,
+				6A65A7FA1B2B079D00AC01A2 /* KaTeX_Size2-Regular.ttf */,
+				6A65A7FB1B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff */,
+				6A65A7FC1B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff2 */,
+				6A65A7FD1B2B079D00AC01A2 /* KaTeX_Size3-Regular.eot */,
+				6A65A7FE1B2B079D00AC01A2 /* KaTeX_Size3-Regular.ttf */,
+				6A65A7FF1B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff */,
+				6A65A8001B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff2 */,
+				6A65A8011B2B079D00AC01A2 /* KaTeX_Size4-Regular.eot */,
+				6A65A8021B2B079D00AC01A2 /* KaTeX_Size4-Regular.ttf */,
+				6A65A8031B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff */,
+				6A65A8041B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff2 */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6AAC3D001B2F0A5A002092A8 /* DDMath */ = {
+			isa = PBXGroup;
+			children = (
+				6AAC3D2E1B2F0FAA002092A8 /* _DDDecimalFunctions.h */,
+				6AAC3D2F1B2F0FAA002092A8 /* _DDDecimalFunctions.m */,
+				6AAC3D301B2F0FAA002092A8 /* _DDFunctionEvaluator.h */,
+				6AAC3D311B2F0FAA002092A8 /* _DDFunctionEvaluator.m */,
+				6AAC3D321B2F0FAA002092A8 /* _DDFunctionExpression.h */,
+				6AAC3D331B2F0FAA002092A8 /* _DDFunctionExpression.m */,
+				6AAC3D341B2F0FAA002092A8 /* _DDFunctionTerm.h */,
+				6AAC3D351B2F0FAA002092A8 /* _DDFunctionTerm.m */,
+				6AAC3D361B2F0FAA002092A8 /* _DDGroupTerm.h */,
+				6AAC3D371B2F0FAA002092A8 /* _DDGroupTerm.m */,
+				6AAC3D381B2F0FAA002092A8 /* _DDNumberExpression.h */,
+				6AAC3D391B2F0FAA002092A8 /* _DDNumberExpression.m */,
+				6AAC3D3A1B2F0FAA002092A8 /* _DDNumberTerm.h */,
+				6AAC3D3B1B2F0FAA002092A8 /* _DDNumberTerm.m */,
+				6AAC3D3C1B2F0FAA002092A8 /* _DDOperatorTerm.h */,
+				6AAC3D3D1B2F0FAA002092A8 /* _DDOperatorTerm.m */,
+				6AAC3D3E1B2F0FAA002092A8 /* _DDParserTerm.h */,
+				6AAC3D3F1B2F0FAA002092A8 /* _DDParserTerm.m */,
+				6AAC3D401B2F0FAA002092A8 /* _DDPrecisionFunctionEvaluator.h */,
+				6AAC3D411B2F0FAA002092A8 /* _DDPrecisionFunctionEvaluator.m */,
+				6AAC3D421B2F0FAA002092A8 /* _DDRewriteRule.h */,
+				6AAC3D431B2F0FAA002092A8 /* _DDRewriteRule.m */,
+				6AAC3D441B2F0FAA002092A8 /* _DDVariableExpression.h */,
+				6AAC3D451B2F0FAA002092A8 /* _DDVariableExpression.m */,
+				6AAC3D461B2F0FAA002092A8 /* _DDVariableTerm.h */,
+				6AAC3D471B2F0FAA002092A8 /* _DDVariableTerm.m */,
+				6AAC3D481B2F0FAA002092A8 /* DDExpression.h */,
+				6AAC3D491B2F0FAA002092A8 /* DDExpression.m */,
+				6AAC3D4A1B2F0FAA002092A8 /* DDExpressionRewriter.h */,
+				6AAC3D4B1B2F0FAA002092A8 /* DDExpressionRewriter.m */,
+				6AAC3D4C1B2F0FAA002092A8 /* DDMathEvaluator.h */,
+				6AAC3D4D1B2F0FAA002092A8 /* DDMathEvaluator.m */,
+				6AAC3D4E1B2F0FAA002092A8 /* DDMathEvaluator+Private.h */,
+				6AAC3D4F1B2F0FAA002092A8 /* DDMathOperator_Internal.h */,
+				6AAC3D501B2F0FAA002092A8 /* DDMathOperator.h */,
+				6AAC3D511B2F0FAA002092A8 /* DDMathOperator.m */,
+				6AAC3D521B2F0FAA002092A8 /* DDMathParser.h */,
+				6AAC3D531B2F0FAA002092A8 /* DDMathParserMacros.h */,
+				6AAC3D541B2F0FAA002092A8 /* DDMathStringToken.h */,
+				6AAC3D551B2F0FAA002092A8 /* DDMathStringToken.m */,
+				6AAC3D561B2F0FAA002092A8 /* DDMathStringTokenizer.h */,
+				6AAC3D571B2F0FAA002092A8 /* DDMathStringTokenizer.m */,
+				6AAC3D581B2F0FAA002092A8 /* DDParser.h */,
+				6AAC3D591B2F0FAA002092A8 /* DDParser.m */,
+				6AAC3D5A1B2F0FAA002092A8 /* DDParserTypes.h */,
+				6AAC3D5B1B2F0FAA002092A8 /* DDParserTypes.m */,
+				6AAC3D5C1B2F0FAA002092A8 /* DDTypes.h */,
+				6AAC3D5D1B2F0FAA002092A8 /* DDTypes.m */,
+				6AAC3D5E1B2F0FAA002092A8 /* NSString+DDMathParsing.h */,
+				6AAC3D5F1B2F0FAA002092A8 /* NSString+DDMathParsing.m */,
+			);
+			name = DDMath;
+			sourceTree = "<group>";
+		};
+		6AAC3D241B2F0A8D002092A8 /* AP */ = {
+			isa = PBXGroup;
+			children = (
+				6AAC3D7B1B3172E0002092A8 /* Optimization.h */,
+				6AAC3D7C1B3172E0002092A8 /* Optimization.m */,
+				6AAC3D251B2F0A9A002092A8 /* GFS.h */,
+				6AAC3D261B2F0A9A002092A8 /* GFS.m */,
+				6AAC3D271B2F0A9A002092A8 /* Loader.h */,
+				6AAC3D281B2F0A9A002092A8 /* Loader.m */,
+			);
+			name = AP;
+			sourceTree = "<group>";
+		};
+		6AAC3D771B314968002092A8 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				6AAC3D781B3149FE002092A8 /* ElementScene.h */,
+				6AAC3D791B3149FE002092A8 /* ElementScene.m */,
+				6A061A8B1B31A50800F5CAB7 /* SceneViewController.h */,
+				6A061A8C1B31A50800F5CAB7 /* SceneViewController.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		6AAD23261B29FF7D002E5E2B = {
+			isa = PBXGroup;
+			children = (
+				6AAD23311B29FF7D002E5E2B /* AgileHardware */,
+				6AAD234B1B29FF7E002E5E2B /* AgileHardwareTests */,
+				6AAD23301B29FF7D002E5E2B /* Products */,
+				990D377DC5B9C1F5194C6FC1 /* Pods */,
+				BF6105FF3CF819166143FAC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AAD23301B29FF7D002E5E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD232F1B29FF7D002E5E2B /* AgileHardware.app */,
+				6AAD23481B29FF7E002E5E2B /* AgileHardwareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAD23311B29FF7D002E5E2B /* AgileHardware */ = {
+			isa = PBXGroup;
+			children = (
+				6AAC3D771B314968002092A8 /* Scene */,
+				6AAC3D241B2F0A8D002092A8 /* AP */,
+				6AAD23671B2A07DA002E5E2B /* UI */,
+				6AAD23361B29FF7D002E5E2B /* AppDelegate.h */,
+				6AAD23371B29FF7D002E5E2B /* AppDelegate.m */,
+				6AAD23841B2A284A002E5E2B /* FunctionsViewController.h */,
+				6AAD23851B2A284A002E5E2B /* FunctionsViewController.m */,
+				6AAD23641B2A079C002E5E2B /* AgileSideMenuViewController.h */,
+				6AAD23651B2A079C002E5E2B /* AgileSideMenuViewController.m */,
+				6AAD235D1B2A0650002E5E2B /* AgileDebugViewController.h */,
+				6AAD235E1B2A0650002E5E2B /* AgileDebugViewController.m */,
+				6AAD23391B29FF7D002E5E2B /* ViewController.h */,
+				6AAD233A1B29FF7D002E5E2B /* ViewController.m */,
+				6AAD233F1B29FF7D002E5E2B /* Images.xcassets */,
+				6AAD23411B29FF7D002E5E2B /* LaunchScreen.xib */,
+				6AAD23321B29FF7D002E5E2B /* Supporting Files */,
+			);
+			path = AgileHardware;
+			sourceTree = "<group>";
+		};
+		6AAD23321B29FF7D002E5E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AAC3D2B1B2F0B02002092A8 /* MersenneTwister.h */,
+				6AAC3D2C1B2F0B02002092A8 /* MersenneTwister.m */,
+				6AAC3D001B2F0A5A002092A8 /* DDMath */,
+				6AAD23771B2A171F002E5E2B /* AlphaGradientView.h */,
+				6AAD23781B2A171F002E5E2B /* AlphaGradientView.m */,
+				6AAD23331B29FF7D002E5E2B /* Info.plist */,
+				6AAD23341B29FF7D002E5E2B /* main.m */,
+				6AAD23581B2A049F002E5E2B /* AgileNavigationBar.h */,
+				6AAD236B1B2A088E002E5E2B /* AgileTools.h */,
+				6AAD23711B2A0A71002E5E2B /* AgileButton.h */,
+				6AAD23721B2A0A71002E5E2B /* AgileButton.m */,
+				6AAD236C1B2A088E002E5E2B /* AgileTools.m */,
+				6AAD235C1B2A05BA002E5E2B /* AutolayoutMacros.h */,
+				6AAD23591B2A049F002E5E2B /* AgileNavigationBar.m */,
+				6AAD235B1B2A04DA002E5E2B /* Macros.h */,
+				6A061A8A1B3175D400F5CAB7 /* Logging.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AAD234B1B29FF7E002E5E2B /* AgileHardwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD234E1B29FF7E002E5E2B /* AgileHardwareTests.m */,
+				6AAD234C1B29FF7E002E5E2B /* Supporting Files */,
+			);
+			path = AgileHardwareTests;
+			sourceTree = "<group>";
+		};
+		6AAD234C1B29FF7E002E5E2B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD234D1B29FF7E002E5E2B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AAD23601B2A06CA002E5E2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD23681B2A07FC002E5E2B /* AgileGradient.h */,
+				6AAD23691B2A07FC002E5E2B /* AgileGradient.m */,
+				6AAD236E1B2A09FE002E5E2B /* AgileSideMenuView.h */,
+				6AAD236F1B2A09FE002E5E2B /* AgileSideMenuView.m */,
+				6AAD23741B2A0D96002E5E2B /* AgileDebugMenuView.h */,
+				6AAD23751B2A0D96002E5E2B /* AgileDebugMenuView.m */,
+				6AEC75001B2ADA6D0023B91A /* ADWebView.h */,
+				6AEC75011B2ADA6D0023B91A /* ADWebView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6AAD23671B2A07DA002E5E2B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCD33F1B43C014005B8A2E /* Bridge */,
+				6AEC74E61B2ABF840023B91A /* HTML & Javascript */,
+				6AAD237A1B2A281C002E5E2B /* Aminations */,
+				6AAD23601B2A06CA002E5E2B /* Views */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		6AAD237A1B2A281C002E5E2B /* Aminations */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD237B1B2A2836002E5E2B /* BouncyTransition.h */,
+				6AAD237C1B2A2836002E5E2B /* BouncyTransition.m */,
+				6AAD237D1B2A2836002E5E2B /* DismissGravity.h */,
+				6AAD237E1B2A2836002E5E2B /* DismissGravity.m */,
+				6AAD237F1B2A2836002E5E2B /* TwoStepTransition.h */,
+				6AAD23801B2A2836002E5E2B /* TwoStepTransition.m */,
+			);
+			name = Aminations;
+			sourceTree = "<group>";
+		};
+		6ABCD33F1B43C014005B8A2E /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				6ABCD3401B43C06C005B8A2E /* AgileBridge.h */,
+				6ABCD3411B43C06C005B8A2E /* AgileBridge.m */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
+		6AEC74E61B2ABF840023B91A /* HTML & Javascript */ = {
+			isa = PBXGroup;
+			children = (
+				6A65A7D81B2B072000AC01A2 /* Fonts */,
+				6A65A8311B2B07B300AC01A2 /* auto-render.min.js */,
+				6A65A7D21B2AFC1100AC01A2 /* katex.min.css */,
+				6A65A7D31B2AFC1100AC01A2 /* katex.min.js */,
+				6A090DEB1B3E97FC00187E7E /* ui.js */,
+			);
+			name = "HTML & Javascript";
+			sourceTree = "<group>";
+		};
+		990D377DC5B9C1F5194C6FC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DD493FAE149931E07478735 /* Pods.debug.xcconfig */,
+				C7B2E25A3D568F8E5D5A7562 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF6105FF3CF819166143FAC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A061A901B31A57300F5CAB7 /* SceneKit.framework */,
+				6A061A8E1B31A56A00F5CAB7 /* OpenGLES.framework */,
+				6AEC74FE1B2AD9F40023B91A /* iAd.framework */,
+				94AF31D004DC952FCFAA6FCD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AAD232E1B29FF7D002E5E2B /* AgileHardware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAD23521B29FF7E002E5E2B /* Build configuration list for PBXNativeTarget "AgileHardware" */;
+			buildPhases = (
+				6EA78E6925C7351BF7361E44 /* Check Pods Manifest.lock */,
+				6AAD232B1B29FF7D002E5E2B /* Sources */,
+				6AAD232C1B29FF7D002E5E2B /* Frameworks */,
+				6AAD232D1B29FF7D002E5E2B /* Resources */,
+				4D222D2227817F2F9A659BB2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileHardware;
+			productName = AgileHardware;
+			productReference = 6AAD232F1B29FF7D002E5E2B /* AgileHardware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AAD23471B29FF7E002E5E2B /* AgileHardwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAD23551B29FF7E002E5E2B /* Build configuration list for PBXNativeTarget "AgileHardwareTests" */;
+			buildPhases = (
+				6AAD23441B29FF7E002E5E2B /* Sources */,
+				6AAD23451B29FF7E002E5E2B /* Frameworks */,
+				6AAD23461B29FF7E002E5E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AAD234A1B29FF7E002E5E2B /* PBXTargetDependency */,
+			);
+			name = AgileHardwareTests;
+			productName = AgileHardwareTests;
+			productReference = 6AAD23481B29FF7E002E5E2B /* AgileHardwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAD23271B29FF7D002E5E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "cisary solutions";
+				TargetAttributes = {
+					6AAD232E1B29FF7D002E5E2B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6AAD23471B29FF7E002E5E2B = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6AAD232E1B29FF7D002E5E2B;
+					};
+				};
+			};
+			buildConfigurationList = 6AAD232A1B29FF7D002E5E2B /* Build configuration list for PBXProject "AgileHardware" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AAD23261B29FF7D002E5E2B;
+			productRefGroup = 6AAD23301B29FF7D002E5E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AAD232E1B29FF7D002E5E2B /* AgileHardware */,
+				6AAD23471B29FF7E002E5E2B /* AgileHardwareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AAD232D1B29FF7D002E5E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A65A8141B2B079D00AC01A2 /* KaTeX_Main-Regular.woff2 in Resources */,
+				6A65A82B1B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff in Resources */,
+				6A65A8221B2B079D00AC01A2 /* KaTeX_Size1-Regular.ttf in Resources */,
+				6A65A8151B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.eot in Resources */,
+				6A65A8251B2B079D00AC01A2 /* KaTeX_Size2-Regular.eot in Resources */,
+				6A65A8321B2B07B300AC01A2 /* auto-render.min.js in Resources */,
+				6A65A8091B2B079D00AC01A2 /* KaTeX_Main-Bold.eot in Resources */,
+				6A65A82E1B2B079D00AC01A2 /* KaTeX_Size4-Regular.ttf in Resources */,
+				6A65A81B1B2B079D00AC01A2 /* KaTeX_Math-Italic.woff in Resources */,
+				6A65A8211B2B079D00AC01A2 /* KaTeX_Size1-Regular.eot in Resources */,
+				6A65A80C1B2B079D00AC01A2 /* KaTeX_Main-Bold.woff2 in Resources */,
+				6A65A8201B2B079D00AC01A2 /* KaTeX_Math-Regular.woff2 in Resources */,
+				6A65A8281B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff2 in Resources */,
+				6A65A8261B2B079D00AC01A2 /* KaTeX_Size2-Regular.ttf in Resources */,
+				6A65A8081B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff2 in Resources */,
+				6A65A8301B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff2 in Resources */,
+				6A65A8051B2B079D00AC01A2 /* KaTeX_AMS-Regular.eot in Resources */,
+				6A65A8291B2B079D00AC01A2 /* KaTeX_Size3-Regular.eot in Resources */,
+				6A65A8101B2B079D00AC01A2 /* KaTeX_Main-Italic.woff2 in Resources */,
+				6A65A82F1B2B079D00AC01A2 /* KaTeX_Size4-Regular.woff in Resources */,
+				6A65A8071B2B079D00AC01A2 /* KaTeX_AMS-Regular.woff in Resources */,
+				6A65A8131B2B079D00AC01A2 /* KaTeX_Main-Regular.woff in Resources */,
+				6AAD23431B29FF7D002E5E2B /* LaunchScreen.xib in Resources */,
+				6AAD23401B29FF7D002E5E2B /* Images.xcassets in Resources */,
+				6A65A8171B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff in Resources */,
+				6A65A8061B2B079D00AC01A2 /* KaTeX_AMS-Regular.ttf in Resources */,
+				6A65A8191B2B079D00AC01A2 /* KaTeX_Math-Italic.eot in Resources */,
+				6A65A8241B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff2 in Resources */,
+				6A65A82D1B2B079D00AC01A2 /* KaTeX_Size4-Regular.eot in Resources */,
+				6A65A8231B2B079D00AC01A2 /* KaTeX_Size1-Regular.woff in Resources */,
+				6A65A80D1B2B079D00AC01A2 /* KaTeX_Main-Italic.eot in Resources */,
+				6A65A8181B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.woff2 in Resources */,
+				6A65A81E1B2B079D00AC01A2 /* KaTeX_Math-Regular.ttf in Resources */,
+				6A65A80F1B2B079D00AC01A2 /* KaTeX_Main-Italic.woff in Resources */,
+				6A65A8111B2B079D00AC01A2 /* KaTeX_Main-Regular.eot in Resources */,
+				6A65A80A1B2B079D00AC01A2 /* KaTeX_Main-Bold.ttf in Resources */,
+				6A65A81D1B2B079D00AC01A2 /* KaTeX_Math-Regular.eot in Resources */,
+				6A65A81C1B2B079D00AC01A2 /* KaTeX_Math-Italic.woff2 in Resources */,
+				6A65A7D51B2AFC1100AC01A2 /* katex.min.js in Resources */,
+				6A65A8271B2B079D00AC01A2 /* KaTeX_Size2-Regular.woff in Resources */,
+				6A65A8161B2B079D00AC01A2 /* KaTeX_Math-BoldItalic.ttf in Resources */,
+				6A65A81A1B2B079D00AC01A2 /* KaTeX_Math-Italic.ttf in Resources */,
+				6A65A7D41B2AFC1100AC01A2 /* katex.min.css in Resources */,
+				6A65A81F1B2B079D00AC01A2 /* KaTeX_Math-Regular.woff in Resources */,
+				6A090DEC1B3E97FC00187E7E /* ui.js in Resources */,
+				6A65A80E1B2B079D00AC01A2 /* KaTeX_Main-Italic.ttf in Resources */,
+				6A65A8121B2B079D00AC01A2 /* KaTeX_Main-Regular.ttf in Resources */,
+				6A65A80B1B2B079D00AC01A2 /* KaTeX_Main-Bold.woff in Resources */,
+				6A65A82C1B2B079D00AC01A2 /* KaTeX_Size3-Regular.woff2 in Resources */,
+				6A65A82A1B2B079D00AC01A2 /* KaTeX_Size3-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAD23461B29FF7E002E5E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D222D2227817F2F9A659BB2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA78E6925C7351BF7361E44 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AAD232B1B29FF7D002E5E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAC3D6E1B2F0FAA002092A8 /* DDExpressionRewriter.m in Sources */,
+				6AAC3D291B2F0A9A002092A8 /* GFS.m in Sources */,
+				6AAD235F1B2A0650002E5E2B /* AgileDebugViewController.m in Sources */,
+				6AAD233B1B29FF7D002E5E2B /* ViewController.m in Sources */,
+				6AAC3D7D1B3172E0002092A8 /* Optimization.m in Sources */,
+				6AAD236D1B2A088E002E5E2B /* AgileTools.m in Sources */,
+				6AAC3D6F1B2F0FAA002092A8 /* DDMathEvaluator.m in Sources */,
+				6AAC3D761B2F0FAA002092A8 /* NSString+DDMathParsing.m in Sources */,
+				6AEC75021B2ADA6D0023B91A /* ADWebView.m in Sources */,
+				6AAC3D6D1B2F0FAA002092A8 /* DDExpression.m in Sources */,
+				6AAC3D661B2F0FAA002092A8 /* _DDNumberTerm.m in Sources */,
+				6AAC3D611B2F0FAA002092A8 /* _DDFunctionEvaluator.m in Sources */,
+				6AAD23821B2A2836002E5E2B /* DismissGravity.m in Sources */,
+				6AAD236A1B2A07FC002E5E2B /* AgileGradient.m in Sources */,
+				6AAC3D651B2F0FAA002092A8 /* _DDNumberExpression.m in Sources */,
+				6AAD23761B2A0D96002E5E2B /* AgileDebugMenuView.m in Sources */,
+				6AAC3D631B2F0FAA002092A8 /* _DDFunctionTerm.m in Sources */,
+				6AAC3D681B2F0FAA002092A8 /* _DDParserTerm.m in Sources */,
+				6AAD23381B29FF7D002E5E2B /* AppDelegate.m in Sources */,
+				6AAC3D2D1B2F0B02002092A8 /* MersenneTwister.m in Sources */,
+				6AAC3D731B2F0FAA002092A8 /* DDParser.m in Sources */,
+				6AAC3D6B1B2F0FAA002092A8 /* _DDVariableExpression.m in Sources */,
+				6AAD235A1B2A049F002E5E2B /* AgileNavigationBar.m in Sources */,
+				6AAC3D721B2F0FAA002092A8 /* DDMathStringTokenizer.m in Sources */,
+				6AAC3D621B2F0FAA002092A8 /* _DDFunctionExpression.m in Sources */,
+				6AAC3D601B2F0FAA002092A8 /* _DDDecimalFunctions.m in Sources */,
+				6AAC3D6C1B2F0FAA002092A8 /* _DDVariableTerm.m in Sources */,
+				6A061A8D1B31A50800F5CAB7 /* SceneViewController.m in Sources */,
+				6AAC3D6A1B2F0FAA002092A8 /* _DDRewriteRule.m in Sources */,
+				6AAD23351B29FF7D002E5E2B /* main.m in Sources */,
+				6AAC3D751B2F0FAA002092A8 /* DDTypes.m in Sources */,
+				6AAD23831B2A2836002E5E2B /* TwoStepTransition.m in Sources */,
+				6AAC3D691B2F0FAA002092A8 /* _DDPrecisionFunctionEvaluator.m in Sources */,
+				6AAD23731B2A0A71002E5E2B /* AgileButton.m in Sources */,
+				6AAD23791B2A171F002E5E2B /* AlphaGradientView.m in Sources */,
+				6AAC3D7A1B3149FE002092A8 /* ElementScene.m in Sources */,
+				6AAC3D641B2F0FAA002092A8 /* _DDGroupTerm.m in Sources */,
+				6AAD23861B2A284A002E5E2B /* FunctionsViewController.m in Sources */,
+				6AAC3D671B2F0FAA002092A8 /* _DDOperatorTerm.m in Sources */,
+				6AAD23701B2A09FE002E5E2B /* AgileSideMenuView.m in Sources */,
+				6AAD23811B2A2836002E5E2B /* BouncyTransition.m in Sources */,
+				6AAC3D711B2F0FAA002092A8 /* DDMathStringToken.m in Sources */,
+				6ABCD3421B43C06C005B8A2E /* AgileBridge.m in Sources */,
+				6AAC3D741B2F0FAA002092A8 /* DDParserTypes.m in Sources */,
+				6AAC3D701B2F0FAA002092A8 /* DDMathOperator.m in Sources */,
+				6AAC3D2A1B2F0A9B002092A8 /* Loader.m in Sources */,
+				6AAD23661B2A079C002E5E2B /* AgileSideMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAD23441B29FF7E002E5E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAD234F1B29FF7E002E5E2B /* AgileHardwareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AAD234A1B29FF7E002E5E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AAD232E1B29FF7D002E5E2B /* AgileHardware */;
+			targetProxy = 6AAD23491B29FF7E002E5E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AAD23411B29FF7D002E5E2B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AAD23421B29FF7D002E5E2B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AAD23501B29FF7E002E5E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6AAD23511B29FF7E002E5E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AAD23531B29FF7E002E5E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD493FAE149931E07478735 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Krężelok (5CWAF28252)";
+				INFOPLIST_FILE = AgileHardware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6AAD23541B29FF7E002E5E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B2E25A3D568F8E5D5A7562 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Krężelok (5CWAF28252)";
+				INFOPLIST_FILE = AgileHardware/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6AAD23561B29FF7E002E5E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgileHardwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgileHardware.app/AgileHardware";
+			};
+			name = Debug;
+		};
+		6AAD23571B29FF7E002E5E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AgileHardwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AgileHardware.app/AgileHardware";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AAD232A1B29FF7D002E5E2B /* Build configuration list for PBXProject "AgileHardware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAD23501B29FF7E002E5E2B /* Debug */,
+				6AAD23511B29FF7E002E5E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAD23521B29FF7E002E5E2B /* Build configuration list for PBXNativeTarget "AgileHardware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAD23531B29FF7E002E5E2B /* Debug */,
+				6AAD23541B29FF7E002E5E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAD23551B29FF7E002E5E2B /* Build configuration list for PBXNativeTarget "AgileHardwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAD23561B29FF7E002E5E2B /* Debug */,
+				6AAD23571B29FF7E002E5E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AAD23271B29FF7D002E5E2B /* Project object */;
+}
